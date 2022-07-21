@@ -42,7 +42,7 @@ a
     height: 700px;
     background-color: rgb(55, 54, 54);
 
-    color: white;
+   
 
 }
 
@@ -51,4 +51,10 @@ font-size: 4rem;
 color: white;
 font-weight: 400;
 font-family: sans-serif;
+}
+p{
+ font-size: 2rem;
+ color: red;
+ font-family: sans-serif;
+
 }
