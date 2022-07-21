@@ -129,7 +129,11 @@
     border-radius: 2px;
   }
   
-
+  .projecth {
+    background-color: black;
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+  }
 
   .projecti {
     height: calc(100% - 6.9rem);
@@ -137,8 +141,58 @@
     object-fit: cover;
   }
   
-  .projecth {
-    font-size: 2rem;
-    padding: 2rem 0.5rem;
+ 
+  
+
+  .contacts {
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
   }
+  
+  .contacts-header > h2 {
+    font-size: 6rem;
+  }
+  
+
+  .contacts-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+
+  footer > p {
+    margin: 2rem;
+  }
+  
+  footer i {
+    vertical-align: middle;
+  }
+
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background:grey;
+    border-top: 4px grey;
+  }
+  
+
   
